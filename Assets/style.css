@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Spectral&display=swap');
+:root {
+    --primary-color: #5598fd;
+   
+}
+
+body {
+    background: var(--primary-color);
+    font-family: 'Martian Mono', monospace;
+}
+
+.header {
+    background:linear-gradient(rgb(12, 13, 13), rgb(11, 11, 137));
+    color: var(--primary-color);
+    padding: 5px;
+    font-family:'Spectral', serif;
+}
+
+span {
+    color: firebrick;
+}
+
+
+.border {
+    margin: 2%;
+    padding: 2%;
+    border-color: rgb(4, 0, 16);
+    
+    
+}
+
+.form-input {
+    width: 100%;
+}
+
+.btn {
+    margin-top: 2%;
+    width: 100%;
+    background-color:  rgb(13, 13, 13);
+
+}
+
+.history-btn {
+    width: 100%;
+    margin: 1%;
+    background: rgb(8, 8, 8);
+    color: var(--primary-color)
+}

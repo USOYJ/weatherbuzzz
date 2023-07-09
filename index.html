@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="./Assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="text-center header">
+    <h1>Weather<span>buzzz</span> Dashboard</h1>
+  </header>
+  <main class="container-fluid">
+    <div class="row">
+      <aside class="col-3">
+        <form id="city-form">
+          <div class="mb-3">
+            <label for="city-search">Search for a city:</label><br />
+            <input type="text" class="form-input" id="city-search" name="city-search"
+              placeholder="Enter city name"><br />
+            <button class="btn btn-info" id="search-button">Search</button>
+          </div>
+        </form>
+        <hr />
+        <div class="col" id="searchHistory">
+
+        </div>
+      </aside>
+      <section class="col-9">
+        <div class="border">
+          <h2 id="current-date"></h2>
+          <div class="column" id="current-weather">
+
+          </div>
+          <h2>5-Day Forecast</h2>
+          <div class="row" id="fiveDay">
+
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
