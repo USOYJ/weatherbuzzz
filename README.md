@@ -10,12 +10,15 @@ HTML, CSS, Javascript, openWeatherAPI
 ## What to expect:
 <p>when a user clicks on this <a href="https://usoyj.github.io/weatherbuzzz/">link</a> It takes you directly to the weather dashboard application. This screenshots below will help you navigate the pages:
 
+<img width="1438" alt="full screen" src="https://github.com/USOYJ/weatherbuzzz/assets/125850331/a473f9e7-043e-49b3-b459-66369ad4e51c">
+
+
+<img width="361" alt="search city" src="https://github.com/USOYJ/weatherbuzzz/assets/125850331/b85aa4c2-f97e-4c3f-abfa-fa7cfe82fed1">
 
 
 
 
-
-
+<img width="1060" alt="5 day" src="https://github.com/USOYJ/weatherbuzzz/assets/125850331/05932bd5-e0cb-4980-bd06-c799f882fbc3">
 
 
 
