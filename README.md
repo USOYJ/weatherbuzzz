@@ -22,14 +22,10 @@ HTML, CSS, Javascript, openWeatherAPI
 
 
 
-
-
-</p>
-
-<p>some of the places I got inspiration fron was Angela Yu's course on Udemy,past recording of classes in zoom,w3schools.com and youtube videos </p>
-
 * Deployed URL: https://usoyj.github.io/weatherbuzzz/
 * GitHub Repository: https://github.com/USOYJ/weatherbuzzz
   
-## Credits:
-* Oyindamola Jongbo
+## Credits
+* Angela Yu's Javascript lesson
+* w3schools.com
+* Coding Nepal on youTube
