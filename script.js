@@ -1,17 +1,16 @@
 var APIKey = "fa28acdeea8415cd264845ae36e19aab";
 
-var searchButton = $('#search-button');
-var citySearch = $('#city-search');
-var formEl = $('city-form');
+var today = moment();
+$("#current-date").text(today.format("MMM DD, YYYY"));
+
 var currentWeather = $('#current-weather');
 var fiveDayContainer = $('#fiveDay');
 var listContainer = $('#searchHistory');
+var searchButton = $('#search-button');
+var formEl = $('city-form');
 var searchHistory = [];
-var savedSearchRender = searchHistory;
-
-
-var today = moment();
-$("#current-date").text(today.format("MMM DD, YYYY"));
+var citySearch = $('#city-search');
+var savedSearchHistory = searchHistory;
 
 function getApi(cityName) {
     $('#current-weather').empty('');
